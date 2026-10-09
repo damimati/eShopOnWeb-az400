@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: mati_own_rg1
-  LOCATION: South Africa North
+  LOCATION: southafricanorth
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: deea10b0-b865-472a-b1c5-8c2a30395aa7
   WEBAPP-NAME: eshoponweb-webapp66034992
